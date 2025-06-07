@@ -1,6 +1,3 @@
-// Compile: gcc -o shell_basic shell_basic.c -lseccomp
-// apt install seccomp libseccomp-dev
-
 #include <fcntl.h>
 #include <seccomp.h>
 #include <stdio.h>
