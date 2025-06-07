@@ -12,9 +12,9 @@
 
 ## 파일 구성
 
-`seccomp.c` → 원본 C 코드 (execve 필터 적용 및 shellcode 입력 구조) 
-`seccomp.S` →  바이너리 디스어셈블 결과 
-`seccomp.md` → 전체 분석 문서 (어셈블리 해석 및 시스템콜 흐름 포함) 
-`shellcode.asm` → 직접 작성한 어셈블리 쉘코드 (open-read-write 기반 플래그 출력) 
+- `seccomp.c` → 원본 C 코드 (execve 필터 적용 및 shellcode 입력 구조) 
+- `seccomp.S` →  바이너리 디스어셈블 결과 
+- `seccomp.md` → 전체 분석 문서 (어셈블리 해석 및 시스템콜 흐름 포함) 
+- `shellcode.asm` → 직접 작성한 어셈블리 쉘코드 (open-read-write 기반 플래그 출력) 
 
 
